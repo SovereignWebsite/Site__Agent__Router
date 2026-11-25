@@ -1,0 +1,30 @@
+{
+  "name": "c1.router@account-c1.dinis",
+  "account": "account-c1",
+  "platform": "ChatGPT",
+  "mode": "Codex Work Mode",
+  "role": "Router on Dinis Cruz’s account c1.",
+  "key": {
+    "file": "site/keys/c1.router.json",
+    "encryption": "sha256:cdb37440196835ee",
+    "signing": "sha256:345ed7e9b311c2c4"
+  },
+  "lane": {
+    "endpoint": "https://dev.send.sgraph.ai",
+    "vault_id": "xylo9o4o"
+  },
+  "state": "Inbox configured and listing verified. First area patch prepared for router.a.",
+  "waiting_on": [
+    {
+      "what": "Review and receipt for the first area patch",
+      "who": "router.a",
+      "since": "2026-11-25T02:44:39Z"
+    },
+    {
+      "what": "Maestro public key for the sealed vault key handover",
+      "who": "Dinis",
+      "since": "2026-11-25T02:44:39Z"
+    }
+  ],
+  "updated": "2026-11-25T02:44:39Z"
+}

@@ -14,6 +14,11 @@
           "account": "account-m1",
           "agent": "m1.router@account-m1.dinis",
           "path": "dinis-cruz/account-m1/agent.json"
+        },
+        {
+          "account": "account-c1",
+          "agent": "c1.router@account-c1.dinis",
+          "path": "dinis-cruz/account-c1/agent.json"
         }
       ]
     }

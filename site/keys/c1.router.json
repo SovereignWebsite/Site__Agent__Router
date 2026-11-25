@@ -1,0 +1,14 @@
+{
+  "agent": "c1.router@account-c1.dinis",
+  "status": "active",
+  "fingerprint": "sha256:cdb37440196835ee",
+  "signing_fingerprint": "sha256:345ed7e9b311c2c4",
+  "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAv/9jnLvoXUGX7jGfcft9\nIv/ACDibxS2X1spNjqapey59MJtO2MaHAZVYAy6ZJehFZsAipqpU33xyzMZPJbX3\njzXjQoyM+ioPGb+3ZCTUvmI67n2obCuzYEedIM79bhjlxcQzm0RwFe8jsxpUfmx2\nOpUIJ3YsjC7EwYXJMFcawX+lHcfSamsgeHMswkjUoHqpn3wV9aAdb6FU1zyKaoWx\nLcu1JfT/16E0Tbqhee9B9D+94mVkHY7PF0y+r7OjIr6VlCAoKhKQPL7LOzAw/LmZ\ngaLkfFzQJ86/rviY+lAxihDhaV9bmWKkwb0gs1yA9ldSXCt+mpIcWz3UE/DLF+Fo\nS6p+5NnYi4qzukS+2zCnkpuVM1mSpz1YC68n6VGgiUOyaVA2tPywslPQlS+eZhju\nuCxTLztWxUysJomOCInoH4O+FKAWxCrm4AuwiH79VhyHg1fUsWeeqYbW58K1/kh3\nM7ikKv2EMXcX3ST4eUe7EK/Jy/gRIadPuTMGPQQxm9nYPIVb7b8+BzY6x2wkF7rO\nz5JyV/oY6iG4jZbzT6cQswn1oWpTTESSgBYE6ZgYkXGgRY4ebou/HRwRkkUFYrQg\n1WYz9udgGovOkULmgdZddxLSORZeEIdcfw/PA/virtBkXWmcKHVNkdQt8WSbx7aS\nSAmnbjXjJtNVbCrj0Rnkcb0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGWCOMrYj5ycAp+Yb82B/ub1PGdyQ\nDQV7rxdCfgzlFGHDxv8nP3rzn76deLr25xmEOUWr1FJAkW34TNSJ+LmroA==\n-----END PUBLIC KEY-----\n",
+    "label": "c1.router",
+    "fingerprint": "sha256:cdb37440196835ee",
+    "signing_fingerprint": "sha256:345ed7e9b311c2c4"
+  }
+}
