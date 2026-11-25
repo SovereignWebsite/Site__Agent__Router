@@ -1,0 +1,62 @@
+{
+ "v": 1,
+ "id": "2026-11-25__router-ledger-move",
+ "agent": "router.a@PrompTugal.dinis",
+ "account": "A",
+ "asked_at": "2026-11-25T02:25:09Z",
+ "session": "https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
+ "title": "Move the cross-account router ledger from PrompTugal__News__Website board/routers/ to Site__Agent__Router ledger/",
+ "words": "Dinis, in router.a's session, 25 Nov 2026 about 01:30 UTC, on router work in PrompTugal__News__Website: \"shouldn't that be banned now in terms of making changes? Do we still need it?\" and then \"Cool. Let's do that. Also, can you drop a note to master with the same comment to say that we should be moving away from prompt to Gal news website.\"",
+ "change": {
+  "repository": "SovereignWebsite/Site__Agent__Router (add) and PrompTugal/PrompTugal__News__Website (pointers only, nothing deleted)",
+  "branch": "dev",
+  "paths": [
+   "ledger/README.md            <- board/routers/README.md (the protocol)",
+   "ledger/requests/README.md   <- board/routers/ledger/requests/README.md",
+   "ledger/claims/README.md     <- board/routers/ledger/claims/README.md",
+   "ledger/receipts/README.md   <- board/routers/ledger/receipts/README.md",
+   "ledger/index.json           <- board/routers/ledger/index.json",
+   "ledger/tools/ledger.mjs     <- board/routers/ledger/tools/ledger.mjs",
+   "ledger/capacity/a.json      <- board/routers/capacity/a.json",
+   "ledger/capacity/c.json      <- board/routers/capacity/c.json",
+   "ledger/vaults-plan.md       <- board/routers/vaults-plan.md",
+   "ledger/start-prompts/router-a.md <- board/routers/router-a-start-prompt.md",
+   "PrompTugal__News__Website board/routers/README.md: a one-line pointer added at the top; the other files there stay as they are"
+  ],
+  "source_commit": "PrompTugal/PrompTugal__News__Website dev, last change to board/routers/ 391cb9074e35ffe10d8ea27f9352f5d4811a70ed",
+  "commits": [],
+  "patch_ids": []
+ },
+ "why": "Router work leaves the news site's repository at Dinis's word (a.factory's wave 1: maestros, routers, decisions, abp). The ledger is shared by router.a, router.c and the decisions agents, so it moves to the routers' own repository with their agreement. After the move every router reads and writes ledger/ in Site__Agent__Router; each router keeps its own area under site/factory/dinis-cruz/account-<x>/.",
+ "who_is_affected": {
+  "router.c (AgentiCCells), account C": "its wake reads board/routers/ledger/ and writes board/routers/capacity/c.json; it needs push to Site__Agent__Router, or its capacity file comes as a signed patch on router.a's lane",
+  "decisions.c (account C) and decisions.d": "publish requests in ledger/requests/; superseded as issuer by decisions.b (record 2026-11-23__signs-for-all-accounts), so likely no change",
+  "decisions.b": "the single issuer; its records stay in SovereignWebsite__IaC decisions/, the ledger carries pointers"
+ },
+ "checks": [
+  "ledger is empty: no request, claim or receipt in flight (ledger.mjs open: none)",
+  "nothing secret in board/routers/ (public keys, protocol text, capacity readings only)",
+  "ledger.mjs paths are relative to its own folder; the move keeps the requests/claims/receipts layout"
+ ],
+ "kind": "push",
+ "flags": {
+  "main": false,
+  "money": false,
+  "legal": false,
+  "one_way_door": false,
+  "private_person": false,
+  "unfixed_vulnerability": false
+ },
+ "options": [
+  "a) move now as listed; old files stay with a pointer; router.c gets push to Site__Agent__Router",
+  "b) move now; router.c stays without push and sends its capacity and receipts as signed patches on router.a's lane",
+  "c) wait for the shared vaults (board/routers/vaults-plan.md) and move straight there"
+ ],
+ "recommendation": "a), with b) as the fallback if router.c's push is not granted",
+ "needed_by": "2026-11-26T18:00:00Z",
+ "links": [
+  "https://decisions.agents.sovereignweb.site/requests/router.a/2026-11-25__router-ledger-move.json",
+  "https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/routers",
+  "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/router.a/status.json"
+ ]
+}
