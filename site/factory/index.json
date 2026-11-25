@@ -9,6 +9,11 @@
           "account": "account-a",
           "agent": "router.a@PrompTugal.dinis",
           "path": "dinis-cruz/account-a/agent.json"
+        },
+        {
+          "account": "account-m1",
+          "agent": "m1.router@account-m1.dinis",
+          "path": "dinis-cruz/account-m1/agent.json"
         }
       ]
     }

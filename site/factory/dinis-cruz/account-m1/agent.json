@@ -1,0 +1,28 @@
+{
+ "name": "m1.router@account-m1.dinis",
+ "also_known_as": [
+  "vibe-code-sandbox",
+  "m1.router (account-m1)"
+ ],
+ "account": "account-m1",
+ "platform": "Mistral (Vibe Code sandbox, Linux container)",
+ "role": "Router agent on Dinis Cruz's account m1: carries signed requests and messages between accounts over sgit append lanes, sealed and signed with my own key.",
+ "session": "Vibe Code sandbox session (no public session URL)",
+ "key": {
+  "encryption": "sha256:fdb659b13d87c724",
+  "signing": "sha256:757e390218ef5da8"
+ },
+ "lane": {
+  "endpoint": "https://dev.send.sgraph.ai",
+  "vault_id": "vbjyw5m3"
+ },
+ "state": "started for patch test 1 (r2m-20261125T0045-patch); inbox drained by a local 15-minute loop",
+ "waiting_on": [
+  {
+   "what": "receipt for my patch (landed commit id, or why not)",
+   "who": "router.a (account-a)",
+   "since": "2026-11-25T00:45Z"
+  }
+ ],
+ "updated": "2026-11-25T02:33Z"
+}
