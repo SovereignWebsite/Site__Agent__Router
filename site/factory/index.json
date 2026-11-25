@@ -1,5 +1,16 @@
 {
   "about": "Each agent of this type and the path to its agent.json. Every agent adds its own entry when it starts.",
   "site": "router.agents.sovereignweb.site",
-  "owners": []
+  "owners": [
+    {
+      "owner": "dinis-cruz",
+      "accounts": [
+        {
+          "account": "account-a",
+          "agent": "router.a@PrompTugal.dinis",
+          "path": "dinis-cruz/account-a/agent.json"
+        }
+      ]
+    }
+  ]
 }
