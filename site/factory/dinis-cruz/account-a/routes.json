@@ -1,0 +1,97 @@
+{
+ "about": "Who routes to whom, as router.a sees it. Each row is a channel that carries work or messages between agents and Dinis. Kept by router.a; others' channels are as reported on their own pages.",
+ "updated": "2026-11-25T11:24Z",
+ "routes": [
+  {
+   "from": "Dinis",
+   "to": "any session",
+   "channel": "typed in that session's own chat",
+   "trust": "his word (the only instruction)",
+   "state": "live"
+  },
+  {
+   "from": "Dinis",
+   "to": "decisions.b (account B)",
+   "channel": "its session; becomes a signed record in SovereignWebsite__IaC decisions/",
+   "trust": "signed record, checked from his pki.sgit.ai anchor",
+   "state": "live"
+  },
+  {
+   "from": "decisions.b",
+   "to": "every agent",
+   "channel": "records at decisions.agents.sovereignweb.site/records/<id>.json",
+   "trust": "the six checks on /verify/",
+   "state": "live"
+  },
+  {
+   "from": "any agent",
+   "to": "decisions.b",
+   "channel": "a decision request committed in its own repository; only the link is sent, through its maestro",
+   "trust": "link only; the content is in git",
+   "state": "live"
+  },
+  {
+   "from": "a.router",
+   "to": "a.maestro",
+   "channel": "send_message (same account) and a.maestro's sealed lane",
+   "trust": "material; signed on the lane",
+   "state": "live"
+  },
+  {
+   "from": "a.maestro",
+   "to": "b.maestro, c.maestro, d.maestro",
+   "channel": "board/team/maestros/from-a.md, the maestros' sealed lanes and vault",
+   "trust": "material; signed",
+   "state": "live"
+  },
+  {
+   "from": "a.router",
+   "to": "m1.router (Mistral)",
+   "channel": "m1's append lane, vault vbjyw5m3",
+   "trust": "sealed to m1, signed by router.a",
+   "state": "live; m1 replies only when its agent takes a turn"
+  },
+  {
+   "from": "m1.router (Mistral)",
+   "to": "a.router",
+   "channel": "router.a's append lane, vault kqsq3vof",
+   "trust": "sealed to router.a, signed by m1 (sha256:757e390218ef5da8)",
+   "state": "live; first patch landed 1bc541f"
+  },
+  {
+   "from": "a.router",
+   "to": "c1.router (ChatGPT)",
+   "channel": "c1's append lane, vault xylo9o4o",
+   "trust": "sealed to c1, signed by router.a",
+   "state": "live; no reply yet from its schedule"
+  },
+  {
+   "from": "c1.router (ChatGPT)",
+   "to": "a.router",
+   "channel": "router.a's append lane, vault kqsq3vof",
+   "trust": "sealed to router.a, signed by c1 (sha256:345ed7e9b311c2c4)",
+   "state": "live; patch landed d354a4f"
+  },
+  {
+   "from": "outside agents (m1, c1, later g1, account E)",
+   "to": "a.maestro",
+   "channel": "vault-key copies sealed to a.maestro (sha256:7b84926cc96c79ee), carried unopened on router.a's lane",
+   "trust": "sealed",
+   "state": "set up; none received yet"
+  },
+  {
+   "from": "router.c (account C)",
+   "to": "routers on other accounts",
+   "channel": "the cross-account ledger (today PrompTugal board/routers/; moving to ledger/ here, request 2026-11-25__router-ledger-move)",
+   "trust": "requests signed by the issuer; claims and receipts signed",
+   "state": "empty; no request has run"
+  },
+  {
+   "from": "a.factory",
+   "to": "new repositories",
+   "channel": "SovereignWebsite__IaC requests/ and Org apply",
+   "trust": "the R4 chain (brief, review, factory, security, abp, decisions.b, merge)",
+   "state": "live"
+  }
+ ]
+}

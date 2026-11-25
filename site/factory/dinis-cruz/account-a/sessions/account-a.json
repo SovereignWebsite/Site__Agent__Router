@@ -1,0 +1,1821 @@
+{
+ "about": "Account A's Claude Code sessions, read by router.a with get/list_sessions (metadata only: title, id, status, board bucket, times). Never transcripts or summaries. 'alive' here means updated in the last 24 hours or running now.",
+ "account": "account-a",
+ "read_at": "2026-11-25T11:23Z",
+ "covered": "the 200 most recently updated sessions (back to 2026-11-16T15:50); older ones exist and are all idle",
+ "counts": {
+  "running": 1,
+  "active (last 24 h)": 29,
+  "quiet (24 to 72 h)": 25,
+  "dormant (over 72 h)": 128,
+  "archived": 17
+ },
+ "active_buckets": {
+  "WORKING": 1,
+  "BLOCKED": 18,
+  "COMPLETED": 4,
+  "REVIEW_READY": 7
+ },
+ "sessions": [
+  {
+   "title": "a.router@AgentiCCells.dinis",
+   "id": "session_018yvwtMhx7CL9da8c7nycat",
+   "status": "RUNNING",
+   "bucket": "WORKING",
+   "created": "2026-11-23T01:29",
+   "updated": "2026-11-25T11:22",
+   "state": "running"
+  },
+  {
+   "title": "ben-fung.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtQ3i4LpWvMMuF9fCYr",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-24T23:57",
+   "updated": "2026-11-25T00:00",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.ben-fung@SovereignWebsite.dinis",
+   "id": "session_018yvwtNDFVPqtbGhRxqxoZ1",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-24T15:12",
+   "updated": "2026-11-25T00:41",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.ios@VoiceDebrief.dinis",
+   "id": "session_018yvwtM1iAswu3fdUqUxbWT",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T17:30",
+   "updated": "2026-11-25T00:48",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "crm.ios@sgit.dinis",
+   "id": "session_018yvwtLoWCseqSM6JDHEmsx",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-16T15:31",
+   "updated": "2026-11-25T01:53",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.mail.dev@AgentiCCells.dinis",
+   "id": "session_018yvwtQtFZjm6Q291BnjYgY",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-23T14:52",
+   "updated": "2026-11-25T01:55",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.mail.conductor@AgentiCCells.dinis",
+   "id": "session_018yvwtMYgkoAUw5KsJTYT8s",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-23T14:52",
+   "updated": "2026-11-25T01:55",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "github-tool.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtR4jMETPfBD6odJjbR",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-25T00:41",
+   "updated": "2026-11-25T01:57",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "startup-grants.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtLncdL4FKwnYNpqFHY",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-24T23:57",
+   "updated": "2026-11-25T01:57",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "tauguard.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtN7yEdELAJzf5qHfEt",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-24T23:53",
+   "updated": "2026-11-25T01:57",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "london-agentics.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtMVWFdYp42B45qLWiJ",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-24T20:05",
+   "updated": "2026-11-25T01:57",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "one-human-nine-agents.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtNfpegfLMBhUK1FCxb",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-25T01:46",
+   "updated": "2026-11-25T02:21",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "apple.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtMgcVvXzU5RNZ7M2Qj",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-25T00:41",
+   "updated": "2026-11-25T02:21",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "domain-registrars.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtQDzwZJMsPiQ4p9rSh",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-25T00:12",
+   "updated": "2026-11-25T02:21",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "uk-driving-test.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtNECHdUKSwpC27FFJg",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-24T23:53",
+   "updated": "2026-11-25T02:21",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "website.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtP1YZi2CGTZUdSyE8q",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-25T00:55",
+   "updated": "2026-11-25T02:59",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.feedback@SovereignWebsite.dinis",
+   "id": "session_018yvwtPapoFQpMGdan3Qe45",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-25T03:01",
+   "updated": "2026-11-25T03:03",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "nvidia.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtP7ZD1uKjc4SanYNSh",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-25T03:02",
+   "updated": "2026-11-25T03:11",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.devops@SovereignWebsite.dinis",
+   "id": "session_018yvwtLeUz8ist3MhYefoQZ",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-25T03:01",
+   "updated": "2026-11-25T03:11",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.factory@SovereignWebsite.dinis",
+   "id": "session_018yvwtNm88hzHaENNXTA9b5",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-23T23:52",
+   "updated": "2026-11-25T03:11",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "puter.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtR4NHV58Q5LtzMcaFQ",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-25T03:02",
+   "updated": "2026-11-25T03:30",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "oscar.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtR6ZF1gnjswENHqA2p",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-25T03:02",
+   "updated": "2026-11-25T03:30",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.sites@SovereignWebsite.dinis",
+   "id": "session_018yvwtQ7z3PUt9L5gpZCNzt",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T23:39",
+   "updated": "2026-11-25T04:40",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "sites-pages.a@SovereignWebsite.dinis",
+   "id": "session_018yvwtPxpt5EDqNmEgLwpKV",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-24T23:58",
+   "updated": "2026-11-25T05:56",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.design@SovereignWebsite.dinis",
+   "id": "session_018yvwtMKHMBUBwQFbXVLVzn",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-25T00:38",
+   "updated": "2026-11-25T06:28",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.crm.design@SovereignWebsite.dinis",
+   "id": "session_018yvwtPdmQ2A59vcaf11mNy",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-24T14:07",
+   "updated": "2026-11-25T06:29",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.crm.dev@SovereignWebsite.dinis",
+   "id": "session_018yvwtNP466yYif3yWt3Ybr",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-23T14:52",
+   "updated": "2026-11-25T10:43",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.crm.studio@SovereignWebsite.dinis",
+   "id": "session_018yvwtLdrmYA9n9KshCtiYv",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-24T14:07",
+   "updated": "2026-11-25T10:47",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.instagram@SovereignWebsite.dinis",
+   "id": "session_018yvwtPbUk3B3HsDHGjD9Yk",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-24T19:33",
+   "updated": "2026-11-25T11:01",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.maestro@account-a.dinis",
+   "id": "session_018yvwtLiem1AqdA1YkKse4h",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-22T23:25",
+   "updated": "2026-11-25T11:01",
+   "state": "active (last 24 h)"
+  },
+  {
+   "title": "a.dev@pki.sgit.ai",
+   "id": "session_018yvwtQ2Tf2UrtjfTJQUBWC",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T14:59",
+   "updated": "2026-11-23T22:50",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.journalist.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtNCCF4GGMNouemtisi",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-23T15:53",
+   "updated": "2026-11-24T00:06",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.video.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtNxNZuWP542UZVDUTa",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-24T00:06",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.sherpa.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtPct58bYVDGY6ZLM7S",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-23T07:25",
+   "updated": "2026-11-24T00:19",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.iam.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtNPmVvCFyGifHJeMv5",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-23T22:54",
+   "updated": "2026-11-24T00:20",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.lambda.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtQDAqTWaNdEUh78AVN",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-23T15:52",
+   "updated": "2026-11-24T00:21",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.swarm.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtMJYhTXmX6uJHBKqgJ",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-24T00:34",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.architect.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtMBzo4iQ9dN7icjvXK",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-23T15:53",
+   "updated": "2026-11-24T00:41",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.cloudtrail.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtPSPYbbAyxHnC3tMKQ",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-23T15:53",
+   "updated": "2026-11-24T00:43",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.ontology.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtMx6fgNgDQNxYujRLm",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-23T15:52",
+   "updated": "2026-11-24T00:44",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.boto3.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtQH6xh3L5QJUpghAMS",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-23T15:52",
+   "updated": "2026-11-24T00:46",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.accountant@account-a.dinis",
+   "id": "session_018yvwtLkc5J9i8vwdm6QHSU",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-23T23:52",
+   "updated": "2026-11-24T00:47",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.data.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtNsU9Ax9WMn2h6EhHU",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-24T00:52",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.s3.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtQbTmpHQ839siWGBQP",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-23T07:25",
+   "updated": "2026-11-24T00:53",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.dev.2.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtQpZ4nNt6XniKN2YHr",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-23T15:52",
+   "updated": "2026-11-24T00:54",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.viz.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtLMhfsoY8D8duFRbSs",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-24T01:02",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.dev.1.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtLV1iZjUCMEKz1PZ51",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-23T03:34",
+   "updated": "2026-11-24T01:10",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.cloudformation.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtPgweggdc6AykBpQay",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-24T01:27",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.security.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtMQdK4XAFapgJH4WRc",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T15:52",
+   "updated": "2026-11-24T01:29",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.pm.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtLfieUut6hSirZ6W9B",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T07:25",
+   "updated": "2026-11-24T01:29",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.vaults.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtPEp1ze9LonhajhRdg",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-24T01:36",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.ux.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtPrRuTC5Gpgcnd3neb",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-23T15:53",
+   "updated": "2026-11-24T01:46",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.billing.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtMJvHDhceWXbmYGvC6",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-23T15:53",
+   "updated": "2026-11-24T02:01",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.conductor.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtN2ue8At6tkGQsBnKM",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-23T15:51",
+   "updated": "2026-11-24T02:01",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "a.ec2.aws@SovereignWebsite.dinis",
+   "id": "session_018yvwtNc3CDv5wXAXwfPgXy",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T14:58",
+   "updated": "2026-11-24T02:01",
+   "state": "quiet (24 to 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-16 15:55",
+   "id": "session_018yvwtPomf3GN6sT8tVB8m3",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T15:48",
+   "updated": "2026-11-16T15:50",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-16 15:55",
+   "id": "session_018yvwtM9RmaNBkey2VFUrV9",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T15:48",
+   "updated": "2026-11-16T15:50",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-16 15:55",
+   "id": "session_018yvwtMnNWthUcGA66AkjDG",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-16T15:48",
+   "updated": "2026-11-16T15:52",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "researcher@AgentiCCells.dinis \u00b7 run 2026-11-16 15:55",
+   "id": "session_018yvwtLswN1uWiVNC7GPx9w",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T15:48",
+   "updated": "2026-11-16T15:53",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "abp@AgentiCCells.dinis \u00b7 run 2026-11-16 18:10",
+   "id": "session_018yvwtNUWmHcGeY5fH4xyDU",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T18:09",
+   "updated": "2026-11-16T18:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-16 18:10",
+   "id": "session_018yvwtLyyjnGhg14W8hDmev",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T18:09",
+   "updated": "2026-11-16T18:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-16 18:10",
+   "id": "session_018yvwtQAmimZxEybuNoqccy",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T18:09",
+   "updated": "2026-11-16T18:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-16 18:10",
+   "id": "session_018yvwtMdWxp3RDnFm5Uxzqa",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T18:09",
+   "updated": "2026-11-16T18:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-16 20:15",
+   "id": "session_018yvwtMrCTHTUBeUB1Lgtwj",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T20:09",
+   "updated": "2026-11-16T20:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-16 20:15",
+   "id": "session_018yvwtQWb5sFaaMYFabiKuJ",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T20:09",
+   "updated": "2026-11-16T20:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "reporter@AgentiCCells.dinis \u00b7 run 2026-11-16 20:15",
+   "id": "session_018yvwtQEPkkj1TSTPevhqP5",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T20:09",
+   "updated": "2026-11-16T20:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-16 20:15",
+   "id": "session_018yvwtLhrtHYXVigoXLYx4j",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T20:09",
+   "updated": "2026-11-16T20:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "reviewer@AgentiCCells.dinis \u00b7 run 2026-11-16 20:15",
+   "id": "session_018yvwtQPmJk2B4AZWorvogx",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T20:09",
+   "updated": "2026-11-16T20:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-16 22:10",
+   "id": "session_018yvwtPnXFh6yfNHBLkcDLD",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T22:10",
+   "updated": "2026-11-16T22:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-16 22:10",
+   "id": "session_018yvwtLvRgVLjNavjcZNDbv",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T22:10",
+   "updated": "2026-11-16T22:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-16 22:10",
+   "id": "session_018yvwtP5k4craUZu2aQuxxP",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T22:10",
+   "updated": "2026-11-16T22:13",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-16 23:30 (ladder)",
+   "id": "session_018yvwtPTW1Woy3dXm1DrRFr",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T23:25",
+   "updated": "2026-11-16T23:28",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-16 23:30 (designs)",
+   "id": "session_018yvwtQUTLPyH9KJ4h3DeXX",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T23:25",
+   "updated": "2026-11-16T23:29",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "researcher@AgentiCCells.dinis \u00b7 run 2026-11-16 23:30 (proof)",
+   "id": "session_018yvwtMfggd5xFX6cXV41uT",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-16T23:25",
+   "updated": "2026-11-17T07:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "sherpa@AgentiCCells.dinis \u00b7 run 2026-11-17 08:10 (first run)",
+   "id": "session_018yvwtR6aEojcdsxAQBuMqR",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T08:09",
+   "updated": "2026-11-17T08:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 08:10",
+   "id": "session_018yvwtPbZC4KipGZPEn9gfz",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T08:09",
+   "updated": "2026-11-17T08:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "reviewer@AgentiCCells.dinis \u00b7 run 2026-11-17 08:10",
+   "id": "session_018yvwtQeteP2mnAVXbEoHRf",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T08:09",
+   "updated": "2026-11-17T08:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "researcher@AgentiCCells.dinis \u00b7 run 2026-11-17 08:10",
+   "id": "session_018yvwtMvUgkXpvcrNjrRssd",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T08:09",
+   "updated": "2026-11-17T08:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 08:10",
+   "id": "session_018yvwtNFmnXsJtHrRm33BU6",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T08:09",
+   "updated": "2026-11-17T08:14",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 08:10",
+   "id": "session_018yvwtMCJuKjRjH36Whc4qi",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T08:09",
+   "updated": "2026-11-17T08:14",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "synthetic-users@AgentiCCells.dinis \u00b7 run 2026-11-17 09:10 (first run)",
+   "id": "session_018yvwtMpXkM2qobYroEg1UB",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T09:09",
+   "updated": "2026-11-17T09:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 09:10",
+   "id": "session_018yvwtQLZ5jeBztKE274J2j",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T09:09",
+   "updated": "2026-11-17T09:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "ambassador@AgentiCCells.dinis \u00b7 run 2026-11-17 09:10 (first run)",
+   "id": "session_018yvwtR2ygsMz5xbaUuHd7P",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T09:09",
+   "updated": "2026-11-17T09:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 09:10",
+   "id": "session_018yvwtNmq4JDnN33oyKNqAg",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T09:09",
+   "updated": "2026-11-17T09:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 09:10",
+   "id": "session_018yvwtPEnnnswJwnAiGks9z",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T09:09",
+   "updated": "2026-11-17T09:13",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "researcher@AgentiCCells.dinis \u00b7 run 2026-11-17 10:10",
+   "id": "session_018yvwtQdx6SJwqrH98woZ4P",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T10:09",
+   "updated": "2026-11-17T10:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 10:10",
+   "id": "session_018yvwtM1zYjtswT6xvGF6NF",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T10:09",
+   "updated": "2026-11-17T10:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 10:10",
+   "id": "session_018yvwtPECp6GzQpFJmLqjCb",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T10:09",
+   "updated": "2026-11-17T10:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "sherpa@AgentiCCells.dinis \u00b7 run 2026-11-17 10:10",
+   "id": "session_018yvwtQWvAfgJxjHPv7ZvKa",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T10:09",
+   "updated": "2026-11-17T10:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 10:10",
+   "id": "session_018yvwtNd6C6PtSdXF2RGui3",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T10:09",
+   "updated": "2026-11-17T10:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "ambassador@AgentiCCells.dinis \u00b7 run 2026-11-17 11:10",
+   "id": "session_018yvwtMnRVfBeRi1xxQAxY1",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T11:08",
+   "updated": "2026-11-17T11:09",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "synthetic-users@AgentiCCells.dinis \u00b7 run 2026-11-17 11:10",
+   "id": "session_018yvwtMYVqttLaU6MVsRFqF",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T11:08",
+   "updated": "2026-11-17T11:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 11:10",
+   "id": "session_018yvwtQPF4gfvLu1eFBmwbW",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T11:08",
+   "updated": "2026-11-17T11:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 11:10",
+   "id": "session_018yvwtMQeZTYAaB9XdUi6ep",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T11:08",
+   "updated": "2026-11-17T11:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 11:10",
+   "id": "session_018yvwtNMjiHyRXERwD6wTt1",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T11:08",
+   "updated": "2026-11-17T11:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 12:10",
+   "id": "session_018yvwtQsLFKCkxBpmeo4djy",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T12:09",
+   "updated": "2026-11-17T12:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "sherpa@AgentiCCells.dinis \u00b7 run 2026-11-17 12:10",
+   "id": "session_018yvwtQUx7EmdeLSEBrAKgP",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T12:10",
+   "updated": "2026-11-17T12:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 12:10",
+   "id": "session_018yvwtM5QgQ5YgipEQJFvgK",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T12:09",
+   "updated": "2026-11-17T12:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 12:10",
+   "id": "session_018yvwtLe7QgwmSgaHcDCf1r",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T12:09",
+   "updated": "2026-11-17T12:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "reviewer@AgentiCCells.dinis \u00b7 run 2026-11-17 12:10",
+   "id": "session_018yvwtMuVtruksg7xPqiLDf",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T12:10",
+   "updated": "2026-11-17T12:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "researcher@AgentiCCells.dinis \u00b7 run 2026-11-17 12:10",
+   "id": "session_018yvwtMpG8WMq9t7WSPHHhh",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T12:10",
+   "updated": "2026-11-17T12:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "share.ios@voicedebrief.dinis: WhatsApp voice notes into VoiceDebrief (Ogg Opus + Share Extension)",
+   "id": "session_018yvwtN4BHYqmtbozLPuK8D",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-17T09:19",
+   "updated": "2026-11-17T12:48",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "ambassador@AgentiCCells.dinis \u00b7 run 2026-11-17 13:10",
+   "id": "session_018yvwtP6f8SR8GSqRwpjAUH",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T13:09",
+   "updated": "2026-11-17T13:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 13:10",
+   "id": "session_018yvwtQhadHKiu2bKGPfXvd",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T13:09",
+   "updated": "2026-11-17T13:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 13:10",
+   "id": "session_018yvwtQCUuwynVNRtr2rA1D",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T13:09",
+   "updated": "2026-11-17T13:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "synthetic-users@AgentiCCells.dinis \u00b7 run 2026-11-17 13:10",
+   "id": "session_018yvwtMkVuMvFg2YRjPZiST",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T13:09",
+   "updated": "2026-11-17T13:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 13:10",
+   "id": "session_018yvwtQQtHDEoeBKZzJ5rcf",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T13:09",
+   "updated": "2026-11-17T13:16",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "researcher@AgentiCCells.dinis \u00b7 run 2026-11-17 14:10",
+   "id": "session_018yvwtMyyHC7RicZP5M5iH3",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T14:10",
+   "updated": "2026-11-17T14:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "sherpa@AgentiCCells.dinis \u00b7 run 2026-11-17 14:10",
+   "id": "session_018yvwtPYmGYXsEXWuEfcixX",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T14:10",
+   "updated": "2026-11-17T14:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 14:10",
+   "id": "session_018yvwtNdT295EkntkCH5xwM",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-17T14:10",
+   "updated": "2026-11-17T14:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 14:10",
+   "id": "session_018yvwtP2ufbgTCpjxcKaQrJ",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T14:10",
+   "updated": "2026-11-17T14:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 14:10",
+   "id": "session_018yvwtM5tSp3QbHsdycbyoK",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T14:10",
+   "updated": "2026-11-17T14:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 15:10",
+   "id": "session_018yvwtQ8H96a8U4zMeNr9LT",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T15:08",
+   "updated": "2026-11-17T15:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 15:10",
+   "id": "session_018yvwtP9qNnT3Pduukj11UN",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T15:08",
+   "updated": "2026-11-17T15:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 16:10",
+   "id": "session_018yvwtN9s6J871QGz9eMidR",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T16:08",
+   "updated": "2026-11-17T16:09",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "researcher@AgentiCCells.dinis \u00b7 run 2026-11-17 16:10",
+   "id": "session_018yvwtLRWs88s8ZvBKGYu7R",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T16:08",
+   "updated": "2026-11-17T16:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "sherpa@AgentiCCells.dinis \u00b7 run 2026-11-17 16:10",
+   "id": "session_018yvwtPaWSw3f9Nm4K7YmcF",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T16:08",
+   "updated": "2026-11-17T16:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 16:10",
+   "id": "session_018yvwtMVEsx8ckmsyGoCUEJ",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T16:08",
+   "updated": "2026-11-17T16:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "reviewer@AgentiCCells.dinis \u00b7 run 2026-11-17 16:10",
+   "id": "session_018yvwtMeoc3CEhXy1QpGYW6",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-17T16:08",
+   "updated": "2026-11-17T16:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 17:10",
+   "id": "session_018yvwtNAZG6NJuyfF8MzXmG",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T17:09",
+   "updated": "2026-11-17T17:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 17:10",
+   "id": "session_018yvwtMPjEkhk1QQ8TDKC6g",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T17:09",
+   "updated": "2026-11-17T17:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 17:10",
+   "id": "session_018yvwtNkiqNnN5JsrGHSYYJ",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T17:09",
+   "updated": "2026-11-17T17:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 18:10",
+   "id": "session_018yvwtLVjcfoiXb3foxbbQo",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T18:09",
+   "updated": "2026-11-17T18:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 18:10",
+   "id": "session_018yvwtLR8YtNejdFAAHgH2S",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T18:09",
+   "updated": "2026-11-17T18:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 18:10",
+   "id": "session_018yvwtMDHgsauVK1vKk1fw5",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T18:09",
+   "updated": "2026-11-17T18:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "researcher@AgentiCCells.dinis \u00b7 run 2026-11-17 18:10",
+   "id": "session_018yvwtLQX5xz2KNkbjVnbzG",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T18:09",
+   "updated": "2026-11-17T18:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "site@AgentiCCells.jose-bota: Jos\u00e9 Bota's website",
+   "id": "session_018yvwtNW5Wjjfj5XEze5KUG",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T21:17",
+   "updated": "2026-11-17T18:24",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "site@AgentiCCells.yiheng-wang: Yiheng Wang's website",
+   "id": "session_018yvwtMBEuvNfc7mywdSfKM",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T19:38",
+   "updated": "2026-11-17T18:24",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "site@AgentiCCells.silvio-switha: Silvio Switha's website",
+   "id": "session_018yvwtQPzChwWL93LZV637J",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-16T20:52",
+   "updated": "2026-11-17T18:25",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "specialist.code@AgentiCCells.dinis",
+   "id": "session_018yvwtNd1ERBHDisfN8k75v",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T16:05",
+   "updated": "2026-11-17T18:28",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "specialist.ux@AgentiCCells.dinis",
+   "id": "session_018yvwtR5sZk2dKwHH7D6vLy",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T16:05",
+   "updated": "2026-11-17T18:28",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "specialist.design@AgentiCCells.dinis",
+   "id": "session_018yvwtPqLB4LzuEameCq26G",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-16T16:05",
+   "updated": "2026-11-17T18:28",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "specialist.security@AgentiCCells.dinis",
+   "id": "session_018yvwtNdF893d1xA6EvBST6",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T16:05",
+   "updated": "2026-11-17T18:39",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "synthetic-users@AgentiCCells.dinis \u00b7 run 2026-11-17 19:10",
+   "id": "session_018yvwtPcqqQQAgFipgVuL4v",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-17T19:08",
+   "updated": "2026-11-17T19:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 19:10",
+   "id": "session_018yvwtMS4dkA94bY9K214Qd",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T19:08",
+   "updated": "2026-11-17T19:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 19:10",
+   "id": "session_018yvwtQX8aQcMiCkqXjdmSC",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T19:08",
+   "updated": "2026-11-17T19:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 19:10",
+   "id": "session_018yvwtNy2kFSe5aGRcqnGGg",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-17T19:08",
+   "updated": "2026-11-17T19:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "civic@PrompTugal.dinis: civic.promptugal.news, first version (Opus lead, Sonnet workers)",
+   "id": "session_018yvwtPSvnQsf6ayD1fisdK",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T19:11",
+   "updated": "2026-11-17T19:26",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "travel@PrompTugal.dinis: travel.promptugal.news, first version (Opus lead, Sonnet workers)",
+   "id": "session_018yvwtLrjfvZAJYbWH1fu5D",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T19:11",
+   "updated": "2026-11-17T19:27",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "reviewer@AgentiCCells.dinis \u00b7 run 2026-11-17 20:10",
+   "id": "session_018yvwtQa7fPshr4sRMm2Qj6",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T20:09",
+   "updated": "2026-11-17T20:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 20:10",
+   "id": "session_018yvwtMg324tNxgjCB9UZaJ",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-17T20:09",
+   "updated": "2026-11-17T20:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "sherpa@AgentiCCells.dinis \u00b7 run 2026-11-17 20:10",
+   "id": "session_018yvwtMp7wrZg9uxadvVShS",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T20:09",
+   "updated": "2026-11-17T20:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 20:10",
+   "id": "session_018yvwtNT8RESwvgfkdfsK8j",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T20:09",
+   "updated": "2026-11-17T20:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 20:10",
+   "id": "session_018yvwtLafHRaWRjKuAmZhFP",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T20:09",
+   "updated": "2026-11-17T20:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "ambassador@AgentiCCells.dinis \u00b7 run 2026-11-17 21:10",
+   "id": "session_018yvwtQaZCSA5umApQQ2HYx",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T21:09",
+   "updated": "2026-11-17T21:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 21:10",
+   "id": "session_018yvwtMAiA8cuSbjUK6aNGz",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T21:09",
+   "updated": "2026-11-17T21:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 21:10",
+   "id": "session_018yvwtMwD5mzUpZaYjjzBDS",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T21:09",
+   "updated": "2026-11-17T21:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 21:10",
+   "id": "session_018yvwtQdXY3oN3cZTqrfVxw",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T21:09",
+   "updated": "2026-11-17T21:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "synthetic-users@AgentiCCells.dinis \u00b7 run 2026-11-17 21:10",
+   "id": "session_018yvwtNXDUxEwCps9VhVebb",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-17T21:09",
+   "updated": "2026-11-17T21:11",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "researcher@AgentiCCells.dinis \u00b7 run 2026-11-17 22:10",
+   "id": "session_018yvwtN5Hm1ukEfNocweQM8",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T22:08",
+   "updated": "2026-11-17T22:09",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 22:10",
+   "id": "session_018yvwtPAKANTX3i4fnasbcM",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-17T22:08",
+   "updated": "2026-11-17T22:09",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 22:10",
+   "id": "session_018yvwtMwC6H94MSMyhiKq7m",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T22:08",
+   "updated": "2026-11-17T22:09",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 23:00 (partner terms)",
+   "id": "session_018yvwtNwKop5ymMFvueB7Ec",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T22:36",
+   "updated": "2026-11-17T22:37",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 23:00 (D-VIZ)",
+   "id": "session_018yvwtPWmTdRDv9Eio98uGN",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T22:36",
+   "updated": "2026-11-17T22:38",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "dev@AgentiCCells.dinis \u00b7 run 2026-11-17 23:00 (V-I18N)",
+   "id": "session_018yvwtPGUEybVxrgL62oJwK",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T22:36",
+   "updated": "2026-11-17T22:55",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-17 23:00 (partner pages)",
+   "id": "session_018yvwtPPEn2mZzyBSrujCEJ",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T22:58",
+   "updated": "2026-11-17T23:00",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 23:00 (partner infographics)",
+   "id": "session_018yvwtP9FQjaBpM9XoyrYH1",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T22:58",
+   "updated": "2026-11-17T23:01",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "data@PrompTugal.dinis: data.promptugal.news, first version (Opus lead, Sonnet workers)",
+   "id": "session_018yvwtQLvQELqcgno5GRzqa",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T19:10",
+   "updated": "2026-11-17T23:04",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-17 23:25 (D-SITEWIDE)",
+   "id": "session_018yvwtN77eXSuKw4joTda1v",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T23:15",
+   "updated": "2026-11-17T23:20",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "conductor.marc-noah@AgentiCCells.dinis: the agentic team for Marc Noah's website",
+   "id": "session_018yvwtPx4jk7Vhh98AVkBj2",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T21:57",
+   "updated": "2026-11-18T00:20",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "hub@AgentiCCells.dinis: hub.agenticcells.site, the catalogue of cells",
+   "id": "session_018yvwtLV5vbrrwk55KR5nrH",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T18:07",
+   "updated": "2026-11-18T01:00",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "cell.email@AgentiCCells.dinis: the email AgenticCell",
+   "id": "session_018yvwtND8YqRZyrrZ428ie7",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T16:05",
+   "updated": "2026-11-18T01:29",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "site@AgentiCCells.gabriel-dacruz: Gabriel DaCruz's website, design pass",
+   "id": "session_018yvwtMzZFjMtEAasK8H6qt",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T21:29",
+   "updated": "2026-11-18T01:30",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "writer@AgentiCCells.dinis \u00b7 run 2026-11-18 08:10",
+   "id": "session_018yvwtQ8trxSaYEZG9ha5ic",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-18T08:09",
+   "updated": "2026-11-18T08:10",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "reviewer@AgentiCCells.dinis \u00b7 run 2026-11-18 08:10",
+   "id": "session_018yvwtNz5WDhWhPHEbrhbdD",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-18T08:09",
+   "updated": "2026-11-18T08:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "designer@AgentiCCells.dinis \u00b7 run 2026-11-18 08:10",
+   "id": "session_018yvwtPos7c1WB2qvfTEvcs",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-18T08:09",
+   "updated": "2026-11-18T08:12",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "conductor.riskmandate@web-summit.dinis: the RiskMandate team",
+   "id": "session_018yvwtMRwwwJNPFW4sLUHfE",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-16T10:42",
+   "updated": "2026-11-18T08:43",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "conductor.sustain-nobility@AgentiCCells.dinis: the SUSTAIN-NOBILITY redesign",
+   "id": "session_018yvwtMTdu2gwms2wTuBVPW",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-18T02:35",
+   "updated": "2026-11-18T10:44",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "conductor.mondweep-chakravorty@AgentiCCells.dinis: Mondweep Chakravorty's website",
+   "id": "session_018yvwtPpQMe632ucPdzcWxE",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-18T10:07",
+   "updated": "2026-11-18T11:47",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "conductor.indi-gupte@AgentiCCells.dinis: Indi Gupte's website",
+   "id": "session_018yvwtLxKXLaS6ZpkhhhMah",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-18T09:45",
+   "updated": "2026-11-18T11:56",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "conductor.ipma-data@AgentiCCells.dinis: IPMA data, drawn",
+   "id": "session_018yvwtQJ6VmowzdRGC7q3NJ",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-18T10:47",
+   "updated": "2026-11-18T12:25",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "conductor.weather-demo@AgentiCCells.dinis: weather, from our data",
+   "id": "session_018yvwtMch7QWutmqwNtoRW5",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-18T16:17",
+   "updated": "2026-11-18T18:32",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "conductor.evals@AgentiCCells.dinis: the evals family (core + OpenRouter)",
+   "id": "session_018yvwtNz5kwDDAySdooddvg",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-18T18:50",
+   "updated": "2026-11-18T18:52",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "conductor.london-billboard@AgentiCCells.dinis: a London billboard, live from the Algarve (simulated)",
+   "id": "session_018yvwtPgRtJud8ZMk9DbPED",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-18T17:54",
+   "updated": "2026-11-18T18:53",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "conductor.algarve-holiday-homes@AgentiCCells.dinis: a made-up Algarve holiday homes company",
+   "id": "session_018yvwtPmDsdnJqzCaknpuW2",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-18T16:17",
+   "updated": "2026-11-18T18:53",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "specialist.writing@AgentiCCells.dinis",
+   "id": "session_018yvwtPcMpTDJBNiucmuw2i",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-16T16:05",
+   "updated": "2026-11-19T01:27",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "specialist.abp@AgentiCCells.dinis",
+   "id": "session_018yvwtLTm4a1bucUBsvBXrb",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-16T16:05",
+   "updated": "2026-11-19T01:28",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "weather@PrompTugal.dinis: weather.promptugal.news, first version (Opus lead, Sonnet workers)",
+   "id": "session_018yvwtN122cfGkS9oMurmfX",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T19:11",
+   "updated": "2026-11-19T01:39",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "conductor@AgentiCCells.dinis",
+   "id": "session_018yvwtQeVLMD7ANkt1akJeD",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T15:35",
+   "updated": "2026-11-19T01:41",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "startups@PrompTugal.dinis: startups.promptugal.news, first version (Opus lead, Sonnet workers)",
+   "id": "session_018yvwtNmAs1tsZPsYxxjP4z",
+   "status": "IDLE",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T19:11",
+   "updated": "2026-11-19T01:44",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "Odoo agent: MVP, research and ABP mapping",
+   "id": "session_018yvwtR5QXpatuyNUw5q8jz",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-16T13:45",
+   "updated": "2026-11-19T01:56",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "cells@AgentiCCells.dinis: the cell factory agent",
+   "id": "session_018yvwtNtj31quYqCxxywEUo",
+   "status": "IDLE",
+   "bucket": "REVIEW_READY",
+   "created": "2026-11-16T18:20",
+   "updated": "2026-11-19T02:08",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "conductor.agenticcells-site@AgentiCCells.dinis: the agenticcells.site website",
+   "id": "session_018yvwtNdgfWAeGgCu9m4NJB",
+   "status": "IDLE",
+   "bucket": "BLOCKED",
+   "created": "2026-11-17T23:08",
+   "updated": "2026-11-19T02:09",
+   "state": "dormant (over 72 h)"
+  },
+  {
+   "title": "site@AgentiCCells.vicky-wang: Vicky Wang's website",
+   "id": "session_018yvwtQTCCFMuq6NrnaZf5y",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-16T18:35",
+   "updated": "2026-11-16T19:05",
+   "state": "archived"
+  },
+  {
+   "title": "site@AgentiCCells.marc-noah: Marc Noah's website, five designs",
+   "id": "session_018yvwtNNf2S7CBmv5miCAwc",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T21:38",
+   "updated": "2026-11-17T22:22",
+   "state": "archived"
+  },
+  {
+   "title": "observability@PrompTugal.dinis (session 2, Sonnet): drain and daily debrief for every PrompTugal site",
+   "id": "session_018yvwtN2KRKH7P8GUgqbVrp",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-17T18:13",
+   "updated": "2026-11-17T23:00",
+   "state": "archived"
+  },
+  {
+   "title": "conductor.cyber-demo@AgentiCCells.dinis: cyber, from our data",
+   "id": "session_018yvwtMo4SMUEmnb8gknxhK",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-18T16:17",
+   "updated": "2026-11-18T16:18",
+   "state": "archived"
+  },
+  {
+   "title": "conductor.events-demo@AgentiCCells.dinis: events, from our data",
+   "id": "session_018yvwtLS47KKyVbeEdcEM6L",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-18T16:17",
+   "updated": "2026-11-18T16:18",
+   "state": "archived"
+  },
+  {
+   "title": "REPLACED a.lambda.aws (old): use session_018yvwtQDAqTWaNdEUh78AVN",
+   "id": "session_018yvwtLeVUPVXDaPda9ugLD",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-23T15:52",
+   "state": "archived"
+  },
+  {
+   "title": "REPLACED a.ontology.aws (old): use session_018yvwtMx6fgNgDQNxYujRLm",
+   "id": "session_018yvwtPTqbaais5DzZ2eaws",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-23T15:52",
+   "state": "archived"
+  },
+  {
+   "title": "REPLACED a.journalist.aws (old): use session_018yvwtNCCF4GGMNouemtisi",
+   "id": "session_018yvwtMXhiyhhFHKYnwfw3q",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-23T15:52",
+   "state": "archived"
+  },
+  {
+   "title": "REPLACED a.boto3.aws (old): use session_018yvwtQH6xh3L5QJUpghAMS",
+   "id": "session_018yvwtPzXKiXmcnoqEAvURG",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-23T15:53",
+   "state": "archived"
+  },
+  {
+   "title": "REPLACED a.ux.aws (old): use session_018yvwtPrRuTC5Gpgcnd3neb",
+   "id": "session_018yvwtMeymXaphzvsVKJrcU",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-23T16:12",
+   "state": "archived"
+  },
+  {
+   "title": "REPLACED a.dev.2.aws (old): use session_018yvwtQpZ4nNt6XniKN2YHr",
+   "id": "session_018yvwtN79NSkFnwbV7UzFuc",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-23T16:12",
+   "state": "archived"
+  },
+  {
+   "title": "REPLACED a.architect.aws (old): use session_018yvwtMBzo4iQ9dN7icjvXK",
+   "id": "session_018yvwtPuQzTBRoKGD45TYFV",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T07:25",
+   "updated": "2026-11-23T16:15",
+   "state": "archived"
+  },
+  {
+   "title": "REPLACED a.security.aws (old): use session_018yvwtMQdK4XAFapgJH4WRc",
+   "id": "session_018yvwtNBPNd9zoeTUyhJ4YY",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T07:25",
+   "updated": "2026-11-23T16:50",
+   "state": "archived"
+  },
+  {
+   "title": "REPLACED a.cloudtrail.aws (old): use session_018yvwtPSPYbbAyxHnC3tMKQ",
+   "id": "session_018yvwtLsVZvQ5dyyKz8ndG2",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-23T16:54",
+   "state": "archived"
+  },
+  {
+   "title": "REPLACED a.billing.aws (old): use session_018yvwtMJvHDhceWXbmYGvC6",
+   "id": "session_018yvwtQWFVjgGwshqcKkxUF",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T03:35",
+   "updated": "2026-11-23T18:08",
+   "state": "archived"
+  },
+  {
+   "title": "REPLACED a.conductor.aws (old): use session_018yvwtN2ue8At6tkGQsBnKM",
+   "id": "session_018yvwtPiszBTMHKVD4AuDwn",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T07:25",
+   "updated": "2026-11-23T21:46",
+   "state": "archived"
+  },
+  {
+   "title": "REPLACED a.iam.aws (old): use session_018yvwtNPmVvCFyGifHJeMv5",
+   "id": "session_018yvwtLi5HNUo32ot6ApGm8",
+   "status": "ARCHIVED",
+   "bucket": "COMPLETED",
+   "created": "2026-11-23T03:33",
+   "updated": "2026-11-23T22:55",
+   "state": "archived"
+  }
+ ]
+}
